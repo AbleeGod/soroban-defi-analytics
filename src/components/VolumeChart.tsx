@@ -67,7 +67,7 @@ const CustomTooltip = ({ active, payload, label }: CustomTooltipProps) => {
 
 export default function VolumeChart({ data }: VolumeChartProps) {
   return (
-    <div className="card animate-fade-in">
+    <div className="card w-full min-w-0 overflow-hidden animate-fade-in">
       <div className="flex items-center justify-between mb-5">
         <div>
           <h2 className="section-title mb-0">30-Day Volume Trends</h2>
